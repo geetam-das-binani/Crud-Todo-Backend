@@ -16,5 +16,5 @@ connect(process.env.DB_PASS, process.env.DB_NAME);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/", router);
-app.listen(PORT, () => console.log("Server is listening on port 8000"));
+app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
  
