@@ -6,7 +6,7 @@ import { connect } from "./databse/connect.mjs";
 
  
 dotenv.config();
-const PORT=process.env.PORT || 8001
+const PORT=process.env.PORT || 8000
 
 const app = express();
 app.use(cors());
